@@ -41,7 +41,7 @@ def main():
 	parser.add_argument('--data_dir', type=str, default="Data",
 					   help='Data Directory')
 
-	parser.add_argument('--learning_rate', type=float, default=0.002,
+	parser.add_argument('--learning_rate', type=float, default=0.0002,
 					   help='Learning Rate')
 
 	parser.add_argument('--beta1', type=float, default=0.5,
